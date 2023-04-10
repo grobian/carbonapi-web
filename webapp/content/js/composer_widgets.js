@@ -48,7 +48,9 @@ function createComposerWindow(myComposer) {
     createToolbarButton('Select a Date Range', 'calendar.png', toggleWindow(createCalendarWindow) ),
     createToolbarButton('Select Recent Data', 'clock.png', toggleWindow(createRecentWindow) ),
     createToolbarButton('Create from URL', 'upload.png', toggleWindow(createURLWindow) ),
+/*
     createToolbarButton('Short URL', 'share.png', showShortUrl),
+*/
     '-',
     timeDisplay
   ];

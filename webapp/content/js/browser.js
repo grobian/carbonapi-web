@@ -115,6 +115,7 @@ function createTreePanel( rootNode ){
     rootNode.appendChild(myGraphsNode);
   }
 
+  /*
   var userGraphsNode = new Ext.tree.AsyncTreeNode({
     id: 'UserGraphsTree',
     text: 'User Graphs',
@@ -125,6 +126,7 @@ function createTreePanel( rootNode ){
     })
   });
   rootNode.appendChild(userGraphsNode);
+  */
 
   var treePanel = new Ext.tree.TreePanel({
     id: 'tree',
