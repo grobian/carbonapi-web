@@ -19,7 +19,7 @@
 // Defined in composer.html
 /*global addTarget getTargetRecord TargetStore*/
 
-var RENDER_BASE_URL = window.location.protocol + '//' + window.location.host + document.body.dataset.baseUrl + 'render/?';
+var RENDER_BASE_URL = window.location.protocol + '//' + window.location.host + '/' + document.body.dataset.baseUrl + 'render/?';
 
 /* GraphiteComposer encapsulates a set of Ext UI Panels,
  * as well as a ParameterizedURL for the displayed graph. */
